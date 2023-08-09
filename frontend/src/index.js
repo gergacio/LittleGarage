@@ -16,6 +16,8 @@ import App from "./App";
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen.jsx";
+import LoginScreen from "./screens/LoginScreen.jsx";
+import RegisterScreen from "./screens/RegisterScreen.jsx";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -39,6 +41,18 @@ const router = createBrowserRouter(
                 index={true}
                 path="/cart"
                 element={<CartScreen />}
+            ></Route>
+
+            <Route
+                index={true}
+                path="/login"
+                element={<LoginScreen />}
+            ></Route>
+
+            <Route
+                index={true}
+                path="/register"
+                element={<RegisterScreen />}
             ></Route>
         </Route>
     )

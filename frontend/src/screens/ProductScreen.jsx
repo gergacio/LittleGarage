@@ -10,10 +10,10 @@ import {
     Form,
 } from "react-bootstrap";
 import Raiting from "../components/Rating";
-import { useGetProductDetailsQuery } from "../slices/productsApiSlice";
+import { useGetProductDetailsQuery } from "../slices/productsApiSlice.js";
 import Loader from "../components/Loader.jsx";
 import Message from "../components/Message.jsx";
-import { addToCart } from "../slices/cartSlice.jsx";
+import { addToCart } from "../slices/cartSlice.js";
 import { useDispatch } from "react-redux";
 
 const ProductScreen = () => {
