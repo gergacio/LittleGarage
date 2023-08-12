@@ -19,7 +19,7 @@ import ProductScreen from "./screens/ProductScreen";
 import CartScreen from "./screens/CartScreen.jsx";
 import LoginScreen from "./screens/LoginScreen.jsx";
 import RegisterScreen from "./screens/RegisterScreen.jsx";
-import ShippingScreen from "./screens/ShippingScreen.jsx";
+import ShippingScreen from "./screens/shippingScreen.jsx";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
